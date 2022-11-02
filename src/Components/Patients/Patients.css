@@ -1,0 +1,15 @@
+.patients {
+  background-color: #f7f7f9;
+}
+.wrap {
+  overflow-wrap: break-word;
+}
+
+.patient-container-left {
+  background-color: #26aae1;
+  color: white;
+}
+
+.patient-container-right {
+  color: #26aae1;
+}

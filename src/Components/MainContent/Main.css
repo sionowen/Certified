@@ -1,0 +1,76 @@
+.bg-img {
+  /* The image used */
+  background-image: url("../../Assets/clinic.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 900px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.55); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  line-height: 2;
+}
+.header {
+  margin-bottom: 20px;
+}
+.sub-header {
+  color: #999;
+}
+.color-border {
+  background-color: #337ab7;
+  height: 4em;
+}
+.margin-top {
+  margin-top: 2em;
+}
+.margin-bottom {
+  margin-bottom: 3em;
+}
+.img-container {
+  position: relative;
+}
+.undecorate {
+  list-style-type: none;
+}
+.offset-title {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  color: #15365d;
+}
+.what-we-do {
+  width: 100%;
+}
+.bullets {
+  font-size: large;
+  color: #15365d;
+  text-align: left;
+  line-height: 2;
+}
+.bullet-section {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.offset-text-container {
+  padding: 0;
+}
