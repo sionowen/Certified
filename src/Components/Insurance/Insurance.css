@@ -1,0 +1,24 @@
+.center {
+  text-align: center;
+}
+
+.left-statement-container {
+  padding: 1px;
+  background-color: #26aae1;
+  color: white;
+}
+.right-statement-container {
+  padding: 1px;
+  color: #26aae1;
+}
+.about {
+  margin-bottom: 20px;
+}
+.flex {
+  display: flex;
+}
+
+.proven {
+  background-color: #f7f7f9;
+  margin-bottom: 0;
+}
