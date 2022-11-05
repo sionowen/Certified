@@ -1,0 +1,25 @@
+.carousel__dot {
+  padding: 7px;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.carousel__dot-group {
+  text-align: center;
+}
+.slidebox-content {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.55); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  line-height: 2;
+}
