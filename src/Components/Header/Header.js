@@ -25,7 +25,7 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="/Providers">Providers</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -42,7 +42,7 @@ function Header() {
       </Container>
       </Navbar>
     </div>
-      {/* <nav className="navbar navbar-default">
+      <nav className="navbar navbar-default">
         <div className="container-fluid">
           <div className="navbar-collapse row">
             <ul className="nav nav-pills nav-fill">
@@ -70,7 +70,7 @@ function Header() {
             </ul>
           </div>
         </div>
-  </nav> */}
+  </nav>
     </div> 
   );
 }
