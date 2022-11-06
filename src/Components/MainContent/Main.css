@@ -30,11 +30,14 @@
   padding: 20px;
   text-align: center;
   line-height: 2;
+  padding-top: 20;
 }
-.header {
+.h1 {
   margin-bottom: 20px;
+  padding-top: 150;
 }
 .sub-header {
+  padding-top: 20px;
   color: #999;
 }
 .color-border {
@@ -42,13 +45,14 @@
   height: 4em;
 }
 .margin-top {
-  margin-top: 2em;
+  margin-top: 4em;
 }
 .margin-bottom {
   margin-bottom: 3em;
 }
 .img-container {
   position: relative;
+  padding-top: 20px;
 }
 .undecorate {
   list-style-type: none;
@@ -72,5 +76,5 @@
   padding-right: 5%;
 }
 .offset-text-container {
-  padding: 0;
+  padding: 10;
 }

@@ -11,38 +11,45 @@ function Header() {
 
   return (
     <div>
-      <div className="row">
+      {/* <div className="row">
         <img
           className="certified-logo col-xs-offset-2 col-xs-8"
           src={Logo}
         ></img>
-      </div>
-      <div>
-      <Navbar bg="primary" variant="dark" expand="lg">
+      </div> */}
+      <Navbar bg="warning" variant="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand position="left" href="/"> <div className="row">
+        <img
+          className="certified-logo col-xs-offset-2 col-xs-8"
+          src={Logo}
+        ></img>
+      </div></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="/Providers">Providers</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <Nav.Link href="/">
+              <h4>Home</h4>
+              </Nav.Link>
+            <Nav.Link href="/Providers"><h4>Providers</h4></Nav.Link>
+            <Nav.Link href="/Patients"><h4>Patients</h4></Nav.Link>
+            <Nav.Link href="/facility"><h4>Facility</h4></Nav.Link>
+            <NavDropdown className="bTitle" bg="primary" title="Business" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/contact">Contact Us</NavDropdown.Item>
+              <NavDropdown.Item href="/Insurance">
+              Insurance
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="/about">About</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item href="/career">
+                Careers
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
       </Navbar>
-    </div>
-      <nav className="navbar navbar-default">
+      {/* <nav className="navbar navbar-default">
         <div className="container-fluid">
           <div className="navbar-collapse row">
             <ul className="nav nav-pills nav-fill">
@@ -70,7 +77,7 @@ function Header() {
             </ul>
           </div>
         </div>
-  </nav>
+  </nav> */}
     </div> 
   );
 }
