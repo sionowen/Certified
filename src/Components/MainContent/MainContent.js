@@ -10,7 +10,7 @@ function MainContent() {
       <div className="row img-container">
         <div className="bg-img col-xs-10 col-xs-offset-1"></div>
         <div className="bg-text">
-          <h1 className="header">
+          <h1>
             Rest Easy With Certified Anesthesia Services
           </h1>
           <p>

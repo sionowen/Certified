@@ -1,10 +1,14 @@
-.certified-logo {
+/* .certified-logo {
   margin-bottom: 20px;
   margin-top: 20px;
-}
-/* .navbar {
-  min-height: 0;
 } */
+.navbar {
+  min-height: 0;
+  padding-bottom: 15px;
+}
+.nav {
+  margin-bottom: 10px;
+}
 @media screen and (max-width: 500px) {
   .container-fluid {
     padding-left: 0;
@@ -26,4 +30,16 @@
   .nav > li > a {
     padding: 10px 3px;
   }
+}
+h4{
+  padding-left: 10px;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+.bTitle {
+  padding-left: 10px;
+  font-weight: bold;
+  color: cornflowerblue;
+  text-size-adjust: 20;
 }
