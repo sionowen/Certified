@@ -5,6 +5,7 @@ function Career() {
   return (
     <div className="row center">
       <div className="col-xs-6 col-xs-offset-3 ">
+      <ResumeUpload />
         <h1>Contact Us</h1>
         <p>Certified Anesthesia Care Inc.</p>
         <p>Address: 5751 Long Brake Circle, Edina MN 55439</p>
@@ -15,7 +16,7 @@ function Career() {
         <p>Business Manager: Jennifer Nelson</p>
         <p>Jnelson@cac.health</p>
       </div>
-      <ResumeUpload />
+      
     </div>
   );
 }
