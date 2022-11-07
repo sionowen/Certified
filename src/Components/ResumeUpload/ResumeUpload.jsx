@@ -3,39 +3,54 @@ import axios from "axios";
 
 
 function ResumeUpload() {
-  const [file, setFile] = useState()
+    const[file, setFile] = useState('');
+    const[fileName, setFileName] = useState('Choose File');
+    const[uploadedfile, setUploadedFile] = useState({});
 
-  function handleChange(event) {
-    setFile(event.target.files[0])
-  }
-  
-  function handleSubmit(event) {
-    event.preventDefault()
-    const url = '/upload';
-    const formData = new FormData();
-    formData.append('file', file);
-    formData.append('fileName', file.name);
-    const config = {
-      headers: {
-        'content-type': 'multipart/form-data',
-      },
-    };
-    axios.post(url, formData, config).then((response) => {
-      console.log(response.data);
+    const onChange = e => {
+        setFile(e.target.files[0]);
+        setFileName(e.target.files[0].name);
+    }
+
+    const onSubmit = async e => {
+        e.preventDefault();
+        const formData = new FormData();
+        formData.append('file', file);
+
+        try {
+    const res = await axios.post('/upload', formData, {
+    headers: {
+        'Content-Type': 'mulitpart/form-data'
+    }
     });
 
-  }
+    const { fileName, filePath} = res.data;
+
+    setUploadedFile({ fileName, filePath})
+        }catch(err) {
+            if (err.response.status === 500) {
+                console.log('There was a problem with the server');
+              } else {
+                console.log('err in submit', err);
+              }
+        }
+    };
 
   return (
-    <div className="App">
-        <form onSubmit={handleSubmit}>
-          <h1>React File Upload</h1>
-          <input type="file" onChange={handleChange}/>
-          <button type="submit">Upload</button>
-        </form>
+    <div className='container mt-4'>
+      <h3 className="display-4 text-center mb-4">upload here</h3>
+        <Fragment>
+            <form onSubmit={onSubmit}>
+            <div className="mb-3">
+  <label htmlFor="formFile" className="form-label">{fileName}</label>
+  <input className="form-control" type="file" id="formFile" onChange={onChange} />
+            </div>
+            <input type="submit" value="upload" className="btn btn-primary btn-block mt-4 mb-4" />
+            </form>
+        </Fragment>
+      
     </div>
   );
-      
 }
 
 export default ResumeUpload;
