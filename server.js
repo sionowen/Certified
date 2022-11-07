@@ -9,10 +9,6 @@ app.use(fileUpload());
 // Upload Endpoint
 app.post('/upload', (req, res) => {
     console.log('req.body', req.body)
-  if (req.files === null) {
-    return res.status(400).json({ msg: 'No file uploaded' });
-  }
-
   const file = req.files.file;
 
   file.mv(`${__dirname}/client/public/uploads/${file.name}`, err => {
