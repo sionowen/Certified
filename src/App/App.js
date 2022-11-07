@@ -9,6 +9,7 @@ import Facility from "../Components/Facility/Facility";
 import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
 import Insurance from "../Components/Insurance/Insurance";
+import Career from "../Components/Career/Career";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path="/Insurance" exact>
             <Insurance />
+          </Route>
+          <Route path="/career" exact>
+            <Career />
           </Route>
           <Route path="/">
             <Main />
