@@ -30,8 +30,9 @@ function Insurance() {
               <p>
               If you are a patient who arrived at our website due to 
               receiving a bill 
-              from BCS, here is a link to the secure payment portal 
-              https://www.bcsconsult.com/billing/.
+              from BCS, here is a link to the secure payment portal
+              <br />
+              <a href="https://www.bcsconsult.com/billing/" class="text-warning">https://www.bcsconsult.com/billing/</a>
               </p>
             </div>
           </div>

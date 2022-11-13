@@ -17,6 +17,10 @@ function Patients() {
             patients. We strive to exceed your expectation while maintaining the
             safest care.
           </p>
+          <br />
+          <p>
+            To learn more about Certified Registered Nurse Anesthetist click <a href="https://www.aana.com/membership/become-a-crna/crna-fact-sheet" class="text-primary">here</a>
+          </p>
         </div>
       </div>
       <div className="row flex">
