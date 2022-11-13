@@ -23,3 +23,8 @@
   text-align: center;
   line-height: 2;
 }
+p {
+  padding: 8px;
+  margin: 8px;
+}
+
