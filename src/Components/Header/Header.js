@@ -28,6 +28,8 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+          <Container className="row justify-content-md-center">
+                <Container className="col-md-auto">
             <Nav.Link href="/">
               <h4>Home</h4>
               </Nav.Link>
@@ -35,7 +37,10 @@ function Header() {
             <Nav.Link href="/Patients"><h4>Patients</h4></Nav.Link>
             <Nav.Link href="/facility"><h4>Facility</h4></Nav.Link>
             <Nav.Link href="/staff"><h4>Meet Us</h4></Nav.Link>
-            <NavDropdown className="bTitle" bg="primary" title="Business" id="basic-nav-dropdown">
+            <Nav.Link href="/community"><h4>Community</h4></Nav.Link>
+            </Container>
+            </Container>
+            <NavDropdown className="btn btn-primary" bg="primary" title="Business" id="basic-nav-dropdown">
               <NavDropdown.Item href="/contact">Contact Us</NavDropdown.Item>
               <NavDropdown.Item href="/Insurance">
               Insurance
