@@ -43,3 +43,8 @@ h4{
   color: cornflowerblue;
   text-size-adjust: 20;
 }
+#basic-nav-dropdown{
+  color: white;
+  font-weight: bold;
+  border: 10px;
+}

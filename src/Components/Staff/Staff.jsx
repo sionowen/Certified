@@ -8,7 +8,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function Staff() {
   return (
     <div>
-        
+        <div className="row justify-content-md-center">
         <div className="color-text center col-xs-12 col-sm-8 col-md-7 col-xl-6 phone-show">
         <h2>Michael Singh, CEO</h2>
         {/* <img className="what-we-do" src={Hospital}></img> */}
@@ -109,6 +109,7 @@ husband Steve and her 3 children, Ricky,
 Lorelai, and Josefina.  If she isn’t at her 
 desk, you can find her in a hockey rink or 
 at a soccer field.</p>
+      </div>
       </div>
       </div>
     </div>

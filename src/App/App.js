@@ -11,6 +11,7 @@ import Footer from "../Components/Footer/Footer";
 import Insurance from "../Components/Insurance/Insurance";
 import Career from "../Components/Career/Career";
 import Staff from "../Components/Staff/Staff";
+import Community from "../Components/Community/Community";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -43,6 +44,9 @@ function App() {
           </Route>
           <Route path="/staff" exact>
             <Staff />
+          </Route>
+          <Route path="/community" exact>
+            <Community />
           </Route>
           <Route path="/">
             <Main />

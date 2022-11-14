@@ -14,9 +14,11 @@ function Contact() {
         <p>Fax: 866-726-9153</p>
         <p>Business Manager: Jennifer Nelson</p>
         <p>Email: Jnelson@cac.health</p>
-        <div className="col-sm-4 col-sm-offset-2 col-xs-6 center patient-container-left">
+        <div className="col-xs-6 col-xs-offset-3 center patient-container-left">
         <h3>Social media</h3>
         <a href="https://www.linkedin.com/company/certified-anesthesia-care-inc/about/" class="text-warning">Linkedin</a>
+        <br />
+        <a href="https://www.facebook.com/profile.php?id=100032359793197" class="text-warning">Facebook</a>
         </div>
       </div>
     </div>
