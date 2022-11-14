@@ -6,37 +6,19 @@ function Insurance() {
     <div>
       <div className="row center about">
         <div className="col-xs-offset-1 col-xs-10">
-          <h1 className="about">About Us</h1>
+          <h1 className="about">Insurance</h1>
           <p>
-            Certified Anesthesia Care Inc. (Certified) is a locally owned
-            company that has been providing safe, dependable, high quality
-            anesthesia care in the Twin Cities and Central Minnesota since 1989.
-            Certified has a strong history of leadership by anesthesia business
-            professions who understand today’s evolving healthcare market. Our
-            collective experience spans more than 90 years of anesthesia
-            delivery and business which allows us to provide solutions to
-            comprehensive anesthesia care with a hands on approach. Michael
-            Singh MSN, CRNA, APRN, CEO currently manages Certified and is guided
-            by the core values of exceptional services and ethical business
-            practice. Certified’s goal is to provide facilities with a quality
-            full-service anesthesia model. We are committed to providing quality
-            Certified Registered Nurse Anesthetists to surgical facilities
-            across Minnesota to meet the superior standards patients should
-            expect in anesthesia professionals.
-          </p>
-        </div>
-      </div>
-      <div className="row center about proven">
-        <div className="col-xs-offset-1 col-xs-10">
-          <h3 className="record">A Proven Record</h3>
-          <p>
-            Our success is proven in the longevity and loyalty of facilities who
-            use Certified, and in our core values. Certified Anesthesia Care Inc
-            means your facility is getting the highest level of quality in
-            anesthetic care. Our long-standing history of delivering
-            exceptional, dependable staffing and patient care in a
-            cost-effective manner is validated by our references. Feel free to
-            contact us!
+          BCS, Incorporated is a separate organization beyond Certified Anesthesia
+          Care whose responsibility is to handle all patient and third party 
+          billing processes for Certified Anesthesia Care.
+          That includes assisting any patients with any type of billing question.  
+          If you have any questions concerning your billing statement from Certified
+          Anesthesia Care, please contact BCS who is our Business Office, their staff 
+          of Patient Account Representatives are available to you Monday – Friday  
+          8.30-4.00 pm CST at 888-278-4126.   Clinical questions should be directed to
+           your surgeon or the surgery center where your services were rendered.
+
+
           </p>
         </div>
       </div>
@@ -44,24 +26,13 @@ function Insurance() {
         <div className="left-statement-container col-xs-6">
           <div className="row">
             <div className="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 center ">
-              <h2>Mission Statement</h2>
+              <h2>Billing Statement</h2>
               <p>
-                To connect facilities with the highest quality providers in the
-                most flexible and reliable way.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="right-statement-container col-xs-6">
-          <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 center ">
-              <h2>Vision Statement</h2>
-              <p>
-                Certified aims to build and grow long term partnerships that can
-                attract, retain, and engage healthcare professionals and
-                facilities through a comprehensive and pleasant scheduling
-                experience which prioritizes consistency, flexibility, and
-                quality of life.
+              If you are a patient who arrived at our website due to 
+              receiving a bill 
+              from BCS, here is a link to the secure payment portal
+              <br />
+              <a href="https://www.bcsconsult.com/billing/" class="text-warning">https://www.bcsconsult.com/billing/</a>
               </p>
             </div>
           </div>

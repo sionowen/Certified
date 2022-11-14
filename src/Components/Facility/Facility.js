@@ -84,19 +84,24 @@ function Facility() {
         </div>
       </div>
       <div className="row">
-        <h1 className="center">What you can expect</h1>
+        <h1 className="center"></h1>
         <p className="col-xs-8 col-xs-offset-2 center">
-          Certified Anesthesia Care was founded by anesthesia providers who
-          understand the importance of transparency, honesty, and trust. We know
-          the tremendous value of our healthcare providers and the superior care
-          they deliver to patients because we’ve been there too. We strive for a
-          mutually beneficial relationship between Certified and our health care
-          professionals. Our CRNAs, anesthesiologists, and other providers stick
-          with Certified because they know they can rely on us for quality
-          placements and technologically advanced scheduling software to help
-          them reach their goals. We deliver the best contracts, scheduling,
-          credentialing, and service to our independent contractors. By putting
-          our providers first, our providers can put their patients first.
+        Certified Anesthesia Care Inc. (Certified) is a full-service 
+        Midwest Anesthesia Company that can do anything from 
+        providing PRN assistance to taking over your anesthesia 
+        department, managing billing process. Our process for 
+        creating custom solutions for our facility partners 
+        ensures that your anesthesia needs will be satisfied 
+        with the highest possible acuity, safety, and consistency.
+
+        Certified partners with hospitals, surgical and 
+        specialty centers, dental offices and ASC’s to 
+        deliver quality anesthesia care. Whatever your needs 
+        are we can provide the gold standard of care in the 
+        billing modality that is most effective for your 
+        business. Please reach out for an inquiry or initial 
+        conversation or send us a more detailed RFP to 
+        msingh@cac.health!
         </p>
       </div>
     </div>

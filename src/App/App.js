@@ -10,6 +10,7 @@ import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
 import Insurance from "../Components/Insurance/Insurance";
 import Career from "../Components/Career/Career";
+import Staff from "../Components/Staff/Staff";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/career" exact>
             <Career />
+          </Route>
+          <Route path="/staff" exact>
+            <Staff />
           </Route>
           <Route path="/">
             <Main />

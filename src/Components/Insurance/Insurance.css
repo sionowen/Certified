@@ -3,7 +3,7 @@
 }
 
 .left-statement-container {
-  padding: 1px;
+  padding: 4px;
   background-color: #26aae1;
   color: white;
 }
@@ -21,4 +21,8 @@
 .proven {
   background-color: #f7f7f9;
   margin-bottom: 0;
+}
+p {
+  padding: 4px;
+  margin: 4px;
 }

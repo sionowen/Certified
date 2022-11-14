@@ -34,6 +34,7 @@ function Header() {
             <Nav.Link href="/Providers"><h4>Providers</h4></Nav.Link>
             <Nav.Link href="/Patients"><h4>Patients</h4></Nav.Link>
             <Nav.Link href="/facility"><h4>Facility</h4></Nav.Link>
+            <Nav.Link href="/staff"><h4>Meet Us</h4></Nav.Link>
             <NavDropdown className="bTitle" bg="primary" title="Business" id="basic-nav-dropdown">
               <NavDropdown.Item href="/contact">Contact Us</NavDropdown.Item>
               <NavDropdown.Item href="/Insurance">
