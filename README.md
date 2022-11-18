@@ -1,3 +1,50 @@
+# Certified Anesthesia Care inc website
+
+## Description
+
+_Duration: 2 weeks, working part time_
+
+App made for the purpose of expanding CAC inc Brand and providing additional resources for their clients. This app has many features that help serve those who visit it; whether that be patients in need of help with billing issues or job seekers wishing to expand their horizon. Click around explore to learn more about the charities they support. Or maybe click the "meet us" tab to learn more about the brains behind the operation. The app has phone responsivness and browser support.
+
+
+## Screen Shots
+
+<img src="public/Images/home.png" style="height: 300px;"/> <img src="public/Images/menu.png" style="height: 300px;"/> <img src="public/Images/form.png" style="height: 300px;"/>
+
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/)
+- [nodemon](https://nodemon.io/)
+- [PostgreSQL](https://www.postgresql.org/download/)
+
+## Installation
+
+1. Open up your editor of choice and run an `npm install`.
+2. Run `npm run server` in your terminal.
+3. Run `npm start` in your terminal.
+
+
+## Usage
+
+Having a website is a good way to provide information, lend support, and gain visiblity. The information can help persuade potental customers. Support gives a sense of comfort. And visiblity... that leads to traction, and traction leads to progress. 
+
+
+
+## Built With
+
+- [Node.js](https://nodejs.org/en/)
+- [nodemon](https://nodemon.io/)
+- [Express](https://expressjs.com/)
+- [React](https://reactjs.org/)
+- BootStrap
+- Nodemailer
+- multer
+- JavaScript
+- CSS
+- HTML
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
