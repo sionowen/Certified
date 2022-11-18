@@ -2,6 +2,7 @@ import React, {Fragment, useState} from "react";
 import Message from './Message';
 import Progress from './Progress';
 import axios from "axios";
+import Form from 'react-bootstrap/Form';
 
 
 function ResumeUpload() {
@@ -55,9 +56,28 @@ function ResumeUpload() {
 
   return (
     <Fragment>
+       <Form>
+       <Form.Group className="mb-3" controlId="formBasicName">
+        <Form.Label>First and Last Name</Form.Label>
+        <Form.Control type="Name" placeholder="Name" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicRole">
+        <Form.Label>Position</Form.Label>
+        <Form.Control type="Position" placeholder="Position" />
+      </Form.Group>
+    </Form>
+    <p>Submit Resume</p>
       {message ? <Message msg={message} /> : null}
       <form onSubmit={onSubmit}>
         <div className='custom-file mb-4'>
+        
           <input
             type='file'
             className='custom-file-input'
