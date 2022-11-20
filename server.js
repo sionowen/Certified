@@ -92,7 +92,7 @@ app.post('/sendemail', (req, res) => {
   })
 })
 
-// Upload Endpoint
+// Upload Endpoint used for old resume form
 // app.post('/upload', (req, res) => {
 //     console.log('req.body', req.body)
 //   const file = req.files.file;

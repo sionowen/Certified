@@ -58,6 +58,7 @@ function ResumeUpload() {
 
   return (
     <div className="container">
+      <h2>Join Our Community</h2>
     <form autoComplete="off" action="/sendemail" method="POST" enctype="multipart/form-data">
     <div className="form-group">
       <input className="form-control" type="text" name="name" placeholder="First and Last Name" />

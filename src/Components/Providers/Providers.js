@@ -5,6 +5,7 @@ import WorkLife from "../../Assets/WorkLife.jpg";
 import Credentialing from "../../Assets/Credentialing.jpg";
 import Contractor from "../../Assets/IndependentContractor.jpg";
 import Service from "../../Assets/Service.jpg";
+import ResumeUpload from "../ResumeUpload/ResumeUpload";
 
 import {
   CarouselProvider,
@@ -97,7 +98,9 @@ function Providers() {
           credentialing, and service to our independent contractors. By putting
           our providers first, our providers can put their patients first.
         </p>
+        <br />
       </div>
+    <ResumeUpload />
     </div>
   );
 }
