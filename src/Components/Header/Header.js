@@ -19,7 +19,8 @@ function Header() {
       </div> */}
       <Navbar bg="warning" variant="light" expand="lg">
       <Container>
-        <Navbar.Brand position="left" href="/"> <div className="row">
+        <Navbar.Brand position="left" href="/"> 
+        <div className="row">
         <img
           className="certified-logo col-xs-offset-2 col-xs-8"
           src={Logo}

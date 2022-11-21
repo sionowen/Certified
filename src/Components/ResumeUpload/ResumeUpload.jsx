@@ -1,8 +1,4 @@
 import React, {Fragment, useState} from "react";
-import Message from './Message';
-import Progress from './Progress';
-import axios from "axios";
-import Form from 'react-bootstrap/Form';
 
 
 function ResumeUpload() {
