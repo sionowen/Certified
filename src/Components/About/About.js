@@ -43,7 +43,7 @@ function About() {
       <div className="row flex">
         <div className="left-statement-container col-xs-6">
           <div className="row">
-            <div className="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 center ">
+            <div className="col-sm-11 col-sm-offset-3 col-xs-11 col-xs-offset-2 center ">
               <h2>Mission Statement</h2>
               <p>
                 To connect facilities with the highest quality providers in the
@@ -54,7 +54,7 @@ function About() {
         </div>
         <div className="right-statement-container col-xs-6">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 center ">
+            <div className="col-sm-12 col-sm-offset-2 col-xs-12 col-xs-offset-1 center ">
               <h2>Vision Statement</h2>
               <p>
                 Certified aims to build and grow long term partnerships that can

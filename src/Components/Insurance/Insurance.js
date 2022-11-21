@@ -5,7 +5,7 @@ function Insurance() {
   return (
     <div>
       <div className="row center about">
-        <div className="col-xs-offset-1 col-xs-10">
+        <div className="center col-xs-offset-1 col-xs-10">
           <h1 className="about">Insurance</h1>
           <p>
           BCS, Incorporated is a separate organization beyond Certified Anesthesia
@@ -23,9 +23,9 @@ function Insurance() {
         </div>
       </div>
       <div className="row flex">
-        <div className="left-statement-container col-xs-6">
+        <div className="left-statement-container col-xs-12">
           <div className="row">
-            <div className="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 center ">
+            <div className="center col-sm-12 col-sm-offset-3 col-xs-8 col-xs-offset-2 center ">
               <h2>Billing Statement</h2>
               <p>
               If you are a patient who arrived at our website due to 

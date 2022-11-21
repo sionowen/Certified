@@ -5,7 +5,7 @@ function Patients() {
   return (
     <div>
       <div className="row">
-        <div className="col-sm-8 col-sm-offset-2 col-xs-12 center patients">
+        <div className="col-sm-12 col-sm-offset-2 col-xs-12 center patients">
           <h1>Patients</h1>
           <p>
             Our patients can expect the highest level of professional and
@@ -24,7 +24,7 @@ function Patients() {
         </div>
       </div>
       <div className="row flex">
-        <div className="col-sm-4 col-sm-offset-2 col-xs-6 center patient-container-left">
+        <div className="col-sm-6 col-sm-offset-2 col-xs-6 center patient-container-left">
           <h3>Billing</h3>
           <p>If you have any questions about billing please contact.</p>
           <p>BCS at 400 East 10th Street Waconia, MN 55387-4552</p>
@@ -33,7 +33,7 @@ function Patients() {
           <p>1-952-442-9770</p>
           <p>1-952-442-7512</p>
         </div>
-        <div className="col-sm-4 col-xs-6 patient-container-right center">
+        <div className="col-sm-6 col-xs-6 patient-container-right center">
           <h3>Anesthesia</h3>
           <p>
             If you have any questions about Certified Anesthesia Care or

@@ -40,7 +40,7 @@ function Providers() {
   return (
     <div>
       <div className="row">
-        <div className="col-sm-offset-1 col-sm-10 col-xs-12">
+        <div className="col-sm-offset-1 col-sm-12 col-xs-12">
           <CarouselProvider
             naturalSlideWidth={100}
             naturalSlideHeight={setCarouselHeight()}
