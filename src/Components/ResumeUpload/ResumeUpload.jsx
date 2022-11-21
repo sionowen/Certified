@@ -58,11 +58,11 @@ function ResumeUpload() {
     <form autoComplete="off" action="/sendemail" method="POST" enctype="multipart/form-data">
     <div className="form-group">
       <input className="form-control" type="text" name="name" placeholder="First and Last Name" />
-      <br />
+      
       <input className="form-control" type="email" name="yours" placeholder="Your Email" />
-      <br />
+      
       <input className="form-control" type="text" name="position" placeholder="Role" />
-      <br />
+      
       <label for="attachment">Please Submit a Resume</label>
       <input className="form-control" type="file" name="image"></input>
         <button class="btn btn-block btn-primary">Send Resume</button>
