@@ -10,7 +10,7 @@ import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
 import Insurance from "../Components/Insurance/Insurance";
 import Career from "../Components/Career/Career";
-import Staff from "../Components/Staff/Staff";
+import Staff from "../Components/Staff/Staff.js";
 import Community from "../Components/Community/Community";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";

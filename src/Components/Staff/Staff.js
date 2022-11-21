@@ -1,4 +1,3 @@
-import React from "react";
 import Mike_Singh from "../../Assets/Mike_Singh_000.jpg";
 import Sion_Owen from "../../Assets/Sion_Owen_0001.jpg";
 import Jennifer_Nelson from "../../Assets/Jennifer_Nelson_0001.jpg"
@@ -6,16 +5,17 @@ import "./staff.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Staff() {
+  
   return (
     <div>
-        <div className="row justify-content-md-center">
-        <div className="color-text center col-xs-12 col-sm-8 col-md-7 col-xl-6 phone-show">
+        <div className="row justify-content-center">
+        <div className="color-text center col-xs-12 col-sm-8 col-md-7 col-xl-6">
         <h2>Michael Singh, CEO</h2>
         {/* <img className="what-we-do" src={Hospital}></img> */}
-        <LazyLoadImage className="what-we-do" src={Mike_Singh} />
+        <LazyLoadImage className="staff" src={Mike_Singh} />
       </div>
-      <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 phone-show">
-        <p>Michael Singh embodies what it means to take a 
+      <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6">
+        <p className="sion">Michael Singh embodies what it means to take a 
         patient centric approach to a medical practice. He 
         started his medical career in nursing where caregiving 
         was a primary focus. Mike excelled in his practice and 
@@ -45,13 +45,14 @@ While the work of a CEO is never done, Michael Sing spends his
 hours away from Certified with his wife Jolene and their 3 
 children, Gavin, Gracen, and Gabriella.</p>
       </div>
-      <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 phone-show">
+      <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 ">
       <h2>Sion Owen, CTO</h2>
         {/* <img className="what-we-do" src={Hospital}></img> */}
-        <LazyLoadImage className="what-we-do" src={Sion_Owen} />
+        <LazyLoadImage className="staff" src={Sion_Owen} />
       </div>
-      <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 phone-show">
-        <p>Sion Owen is the Chief Technology Officer of 
+      <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 ">
+        <br />
+        <p className="sion">Sion Owen is the Chief Technology Officer of 
             Certified Anesthesia Care. With his background 
             in web application development specializing in 
             medical process tools, and his love of process, Sion 
@@ -68,13 +69,15 @@ children, Gavin, Gracen, and Gabriella.</p>
             Robert and Molly. When not working, Sion loves 
             cooking for his friends and family and spending 
             time outdoors.</p>
-            <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 phone-show">
+            </div>
+            <br />
+            <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 ">
             <h2>Jennifer Nelson, Business Manager</h2>
         {/* <img className="what-we-do" src={Hospital}></img> */}
-        <LazyLoadImage className="what-we-do" src={Jennifer_Nelson} />
+        <LazyLoadImage className="staff" src={Jennifer_Nelson} />
       </div>
-      <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 phone-show">
-        <p>Jennifer Nelson is Certified Anesthesia Care’s 
+      <div className="center col-xs-12 col-sm-8 col-md-7 col-xl-6 ">
+        <p className="sion">Jennifer Nelson is Certified Anesthesia Care’s 
             dedicated Business Manager. Her love for 
             people and organization led Jennifer to 
             pursue and graduate with a degree in 
@@ -110,7 +113,7 @@ Lorelai, and Josefina.  If she isn’t at her
 desk, you can find her in a hockey rink or 
 at a soccer field.</p>
       </div>
-      </div>
+      
       </div>
     </div>
   )

@@ -2,4 +2,12 @@ h2 {
     color: rgb(71, 101, 220);
     text-shadow: 2px 2px 4px #7a7a70;
     font-weight: bold;
+    padding-top: 15px;
+}
+.staff{
+    max-block-size: 400px;
+    padding-bottom: 10px;
+}
+.sion{
+    padding-top: 25px;
 }
