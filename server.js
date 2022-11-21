@@ -73,7 +73,6 @@ app.post('/sendemail', (req, res) => {
         if(err){
           console.log(err)
         } else{
-          alert("Resume Submitted!")
           console.log("email sent" + info.response)
           
           fs.unlink(path, function(err){
