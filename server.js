@@ -61,7 +61,7 @@ app.post('/sendemail', (req, res) => {
         from: 'crnaa9809@gmail.com',
         to: 'alexcarufel094@gmail.com',
         subject: name,
-        text: position, yours,
+        text: position,
         attachments: [
           {
             path: path
@@ -73,7 +73,6 @@ app.post('/sendemail', (req, res) => {
         if(err){
           console.log(err)
         } else{
-          alert("Resume Submitted!")
           console.log("email sent" + info.response)
           
           fs.unlink(path, function(err){
@@ -92,7 +91,7 @@ app.post('/sendemail', (req, res) => {
   })
 })
 
-// Upload Endpoint used for old resume form
+// Upload Endpoint used for old resume
 // app.post('/upload', (req, res) => {
 //     console.log('req.body', req.body)
 //   const file = req.files.file;
