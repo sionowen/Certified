@@ -2,10 +2,10 @@ import React from "react";
 import "./Facility.css";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import WorkLife from "../../Assets/WorkLife.jpg";
-import Credentialing from "../../Assets/Credentialing.jpg";
-import Contractor from "../../Assets/IndependentContractor.jpg";
-import Service from "../../Assets/Service.jpg";
 import Clinic from "../../Assets/clinic.jpg";
+import building from "../../Assets/building.jpg";
+import facility from "../../Assets/facility.jpg";
+import room from "../../Assets/room.jpg";
 
 import {
   CarouselProvider,
@@ -40,7 +40,7 @@ function Facility() {
   return (
     <div>
       <div className="row">
-        <div className="col-sm-offset-1 col-sm-10 col-xs-12">
+        <div className="col-sm-offset-1 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" >
           <CarouselProvider
             naturalSlideWidth={100}
             naturalSlideHeight={setCarouselHeight()}
@@ -50,33 +50,33 @@ function Facility() {
           >
             <Slider>
               <Slide index={0}>
-                <p className="slidebox-content">
+                {/* <p className="slidebox-content">
                   Best-in-industry scheduling flexibility to support work/life
                   balance
-                </p>
+                </p> */}
                 <Image src={Clinic} />
               </Slide>
               <Slide index={1}>
-                <p className="slidebox-content">
+                {/* <p className="slidebox-content">
                   Timely credentialing so you can start your role seamlessly
-                </p>
+                </p> */}
 
-                <Image src={Credentialing} />
+                <Image src={building} />
               </Slide>
               <Slide index={2}>
-                <p className="slidebox-content">
+                {/* <p className="slidebox-content">
                   White glove assistance in business formation to establish
                   yourself as an independent contractor
-                </p>
+                </p> */}
 
-                <Image src={Contractor} />
+                <Image src={room} />
               </Slide>
               <Slide index={3}>
-                <p className="slidebox-content">
+                {/* <p className="slidebox-content">
                   A service oriented partner that values your contribution
-                </p>
+                </p> */}
 
-                <Image src={Service} />
+                <Image src={facility} />
               </Slide>
             </Slider>
             <DotGroup />

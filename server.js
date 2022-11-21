@@ -61,7 +61,7 @@ app.post('/sendemail', (req, res) => {
         from: 'crnaa9809@gmail.com',
         to: 'alexcarufel094@gmail.com',
         subject: name,
-        text: position,
+        text: position, yours,
         attachments: [
           {
             path: path
